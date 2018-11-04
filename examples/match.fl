@@ -1,0 +1,15 @@
+let t = (1, true) in
+
+let t1 = (0, false) in
+
+let test = match t with
+        | inl a ->
+            if a == 0 then
+                true
+            else
+                false
+        | inr b -> b in
+
+let res1 = test (t) in
+
+let res2 = test (t1)

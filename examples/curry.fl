@@ -1,0 +1,5 @@
+
+
+let comp2 = fun a -> fun b -> a == b in
+
+let res = comp2 (1) (2)
